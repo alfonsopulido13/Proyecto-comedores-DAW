@@ -1,0 +1,9 @@
+{
+	"mongo" : {
+		"host" : "localhost",
+		"db":"proyecto_final",
+		"port":"27017"
+
+	}
+}
+

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+
+    <title>Bar Espol</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/index_secundario.css">
+    <link rel="stylesheet" href="css/fooder.css">
+
+
+  </head>
+<body>
+      <header class="masthead">
+        <div class="title text-center">
+         <p>Bar Espol  -  Login</p> 
+        </div>
+      </header>
+		
+	</div> 
+    <div id="Contenedor">
+    <div class="Icon">
+      <span class="glyphicon glyphicon-user"></span>
+    </div>
+
+      <form action="/index" method="post">
+        <div class="input-group input-group-lg">
+          <span class="input-group-addon" id="sizing-addon1"><i class="glyphicon glyphicon-envelope"></i></span>
+          <input type="text" class="form-control" name="usuario" placeholder="usuario" id="usuario">
+        </div>
+        <br>
+        <div class="input-group input-group-lg">
+          <span class="input-group-addon" id="sizing-addon1"><i class="glyphicon glyphicon-lock"></i></span>
+          <input type="password" name="clave" class="form-control" placeholder="******" id="clave">
+        </div>
+        <br>
+        <button class="btn btn-lg btn-primary btn-block btn-signin" id="IngresoLog" type="submit">Entrar</button>
+        <div class="opcioncontra"><a href="">Olvidaste tu contraseña?</a></div>
+      </form>
+     
+     </div>
+
+
+  <%- include layout/footer.ejs %>

@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Lobster');
+
+#cont-bares{
+	margin: 10px;
+	height: 60%;
+	
+
+}
+
+#list-comed{
+	height: 100%;
+    overflow-y: scroll;
+    padding: 5px;
+    border-style: dotted;
+}
+
+#pos-comed{
+	height: 100%;
+}
+
+.comedor-tk  a p{
+	margin: 0px;
+	font-weight: bold;
+}
+
+#tit-comd-cerc {
+	font-size: 3em;
+	font-family: 'Abril Fatface', serif;
+	font-weight: bold;
+}
+
+.list-group-item-heading{
+	font-family: 'Lobster', serif;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-align: center;
+
+}
+.list-group-item-text{
+	font-weight: bold;
+
+}
+#nav-superior{
+
+	height: auto;
+}
+
+
+
+
+

@@ -1,0 +1,44 @@
+ <header>
+  <div class="container header inner">
+	  <nav class="navbar">
+	    <div class="container">
+	      <div class="navbar-header">
+	        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+	          <span class="icon-bar"></span>
+	          <span class="icon-bar"></span>
+	          <span class="icon-bar"></span>                        
+	        </button>
+	        <a class="navbar-brand" href="/">Bar Espol</a>
+	      </div>
+	      <div class="collapse navbar-collapse" id="myNavbar">
+	        <ul class="nav navbar-nav navbar-right masthead-nav">
+	          <li><a href="/galeria">Galeria</a></li>
+	          <li>
+	           	<% if ( tipo_usuario == 1 ) { %>
+			  		<a href="/comedoresAdministrador/<%= tipo_usuario %>">Comedores</a>
+			  	<%} else {%>
+			  		<a href="/comedores">Comedores</a>
+			  	<% } %>
+	          </li>
+	          <li><a href="/estadisticas">Mejores opciones</a></li>
+	          <li><a href="/contactanos">Contactos</a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+  </div>
+</header>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="#">Acerca De</a>
+  <% if ( tipo == 1 ) { %>
+  <a href="/comedores">Comedores Facultad</a>
+  <% } %>
+  <a href="/estadisticas">Estadisticas</a>
+  <a href="/contactanos">Contactos</a>
+  <a href="/perfiles">ProfileCliente</a>
+  <a href="/login_inicial">Salir</a>
+</div>
+
+<span style="font-size:30px;cursor:pointer;float:right;color:#fff;position:absolute;top:5%;right: 10px;" onclick="openNav()">☰</span>
+

@@ -1,0 +1,124 @@
+
+img.img_fooder{
+  width: 30px; height: 30px;
+}
+
+ 
+
+div.img_principal{
+  text-align: center;
+}
+
+div.id_imagen_principal{
+  padding-right:0px;
+  padding-left:0px;
+}
+
+img.img_prin {
+  border-style: solid;
+  border-color: #e1e0e0;
+  border-width: 12px;
+  border-top-width: 8px;
+  -webkit-box-shadow: 1px 7px 17px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 1px 7px 17px 0px rgba(0,0,0,0.75);
+  box-shadow: 1px 7px 17px 0px rgba(0,0,0,0.75);
+}
+
+
+
+
+
+h2{
+  margin: 0px;
+  margin-left: 10px;
+
+}
+
+
+#sud_title_cuadro:hover {
+  color: #000;
+}
+
+img.img_detalle{
+  width: 170px; height: 170px;
+}
+
+div.div_img_detalle{
+  text-align: center;
+}
+
+
+p.font_7 {
+  text-align: left;
+  font-size: 12px;
+  color= black;
+}
+
+
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+}
+.jumbotron .btn {
+  padding: 14px 24px;
+  font-size: 21px;
+}
+
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .masthead,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+.section_contactos{
+  text-align: left;
+  background-color: #fff;
+}
+
+#map-outer {
+  height: 440px; 
+  padding: 20px; 
+  border: 2px solid #CCC; 
+  margin-bottom: 20px; 
+  background-color:#FFF }
+
+#map-container { 
+  height: 400px 
+}
+    
+@media all and (max-width: 991px) {
+    #map-outer  { 
+      height: 650px 
+    }
+}
+
+
+.hide-bullets {
+    list-style:none;
+    margin-left: -40px;
+    margin-top:20px;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    width: 100%;
+}
+/*
+li.class_img_gallery{
+  list-style: none;
+}*/
+
+img.img_galeria{
+  height: 100px;
+}

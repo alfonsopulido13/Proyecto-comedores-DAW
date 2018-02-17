@@ -1,0 +1,33 @@
+div.footer {
+	padding-top: 10px;
+	padding-bottom: 10px; 
+	background: rgba(98,125,77,0.96);
+background: -moz-linear-gradient(left, rgba(98,125,77,0.96) 1%, rgba(0,96,0,0.96) 51%, rgba(98,125,77,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(1%, rgba(98,125,77,0.96)), color-stop(51%, rgba(0,96,0,0.96)), color-stop(100%, rgba(98,125,77,1)));
+background: -webkit-linear-gradient(left, rgba(98,125,77,0.96) 1%, rgba(0,96,0,0.96) 51%, rgba(98,125,77,1) 100%);
+background: -o-linear-gradient(left, rgba(98,125,77,0.96) 1%, rgba(0,96,0,0.96) 51%, rgba(98,125,77,1) 100%);
+background: -ms-linear-gradient(left, rgba(98,125,77,0.96) 1%, rgba(0,96,0,0.96) 51%, rgba(98,125,77,1) 100%);
+background: linear-gradient(to right, rgba(98,125,77,0.96) 1%, rgba(0,96,0,0.96) 51%, rgba(98,125,77,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#627d4d', endColorstr='#627d4d', GradientType=1 );
+}
+
+img.img_fooder{
+  width: 30px; height: 30px;
+}
+
+
+p.id_small{
+	text-align: center;
+	font-size: 10px;
+  	color: #fff;
+  	font-style: italic;
+}
+
+@media screen and (min-width: 768px) {
+  .masthead,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}

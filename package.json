@@ -1,0 +1,28 @@
+{
+  "name": "practica_res",
+  "version": "1.0.0",
+  "description": "practica aereopuerto",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "API",
+    "CRUD",
+    "REST",
+    "MVC",
+    "MongoDB"
+  ],
+  "author": "Daniel",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "express-method-override": "0.0.3",
+    "mongoose": "^5.0.1",
+    "morgan": "^1.9.0",
+    "responsimple": "^1.0.1",
+    "serve-favicon": "^2.4.5"
+  }
+}

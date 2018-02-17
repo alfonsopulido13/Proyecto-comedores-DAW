@@ -1,0 +1,152 @@
+
+/* Global properties ======================================================== */
+html {
+	width:100%;
+}
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:100%;
+	color:red;
+	min-width:960px;
+	
+}
+
+
+
+.main {
+	width:960px;
+	padding:0;
+	margin:0 auto;
+	font-size:13px;
+	line-height:25px;
+}
+
+
+.col-1, .col-2, .column-1, .column-2 {
+	float:left;
+}
+.wrapper {
+	width:100%;
+	overflow:hidden;
+}
+.extra-wrap {
+	overflow:hidden;
+}
+
+
+.img-border {
+	border:10px solid #fff;
+}
+/*********************************boxes**********************************/
+.indent {
+	padding:20px;
+}
+.indent-left {
+	padding-left:10px;
+}
+.indent-right {
+	padding-right:50px;
+}
+.indent-bot {
+	margin-bottom:20px;
+}
+
+
+.img-indent-bot {
+	margin-bottom:25px;
+}
+
+
+.menu li a, .list-1 li a, .link, .button-1, .button-2, h1 a {
+	text-decoration:none;
+}
+/*********************************header*************************************/
+header {
+	width:100%;
+	position:relative;
+	z-index:2;
+}
+
+h2 {
+	font-size:60px;
+	font-weight:normal;
+	line-height:108px;
+	color:#fff;
+	text-align:center;
+}
+h2 span {
+	color:pink;
+}
+
+/***** menu *****/
+
+.row-bot {
+	width:100%;
+	background:url(../images/row-bot-tail.gif) center top repeat-x;
+}
+.row-bot-bg {
+	width:100%;
+	min-height:122px;
+	background:url(../images/row-bot-bg.jpg) center top no-repeat;
+}
+/***** slider *****/
+.slider-wrapper {
+	width:960px;
+	height:490px;
+	padding:10px;
+	background:#670843;
+	overflow:hidden;
+}
+.slider {
+	width:940px;
+	height:466px;
+}
+.items {
+	display:none;
+}
+.pagination {
+	position:absolute;
+	left:427px;
+	bottom:19px;
+	z-index:99;
+}
+.pagination li {
+	float:left;
+	padding-right:4px;
+}
+.pagination a {
+	display:block;
+	width:26px;
+	height:26px;
+	background:url(../images/slider-pagination.png) right top no-repeat;
+	cursor:pointer;
+}
+.pagination li.current a {
+	cursor:default;
+}
+.pagination li.current a,  .pagination a:hover {
+	background-position:left top;
+}
+/*********************************content*************************************/
+#content {
+	width:100%;
+	padding:15px 0 50px;
+	
+	position:relative;
+	z-index:1;
+}
+
+h3 {
+	text-align: center;
+	font-family: "Times New Roman", Georgia, Serif;
+	font-size:50px;
+	line-height:3em;
+	color:#499167;
+	font-weight:normal;
+	letter-spacing:-1px;
+	margin-bottom:5px;
+}
+
+
+
+
